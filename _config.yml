@@ -3,9 +3,9 @@ menu:
   Archives: /archives
 
 widgets: 
-#- search
-#- category
-#- tag
+- search
+- category
+- tag
 
 excerpt_link: Read More
 
