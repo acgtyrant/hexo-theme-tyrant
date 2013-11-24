@@ -1,0 +1,13 @@
+<article class="<%= page.layout %>">
+  <div class="post-content">
+    <header>
+      <%- partial('_partial/post/title', {item: page, index: false}) %>
+    </header>
+    <div class="entry">
+      <%- page.content %>
+    </div>
+    <footer>
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
