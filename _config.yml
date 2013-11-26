@@ -2,7 +2,11 @@ menu:
   Home: /
   Archives: /archives
   About: /about
-  Github: "https://github.com/lazywei/"
+
+# Social buttons
+social:
+  twitter: jrweizhang
+  github: lazywei
 
 widgets:
 - search
@@ -10,11 +14,6 @@ widgets:
 - tag
 
 excerpt_link: Read More
-
-twitter:
-  username:
-  show_replies: false
-  tweet_count: 5
 
 addthis:
   enable: false
