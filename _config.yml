@@ -1,6 +1,12 @@
 menu:
   Home: /
   Archives: /archives
+  About: /about
+
+# Social buttons
+social:
+  twitter: jrweizhang
+  github: lazywei
 
 widgets:
 - search
@@ -9,11 +15,6 @@ widgets:
 - tag
 
 excerpt_link: Read More
-
-twitter:
-  username:
-  show_replies: false
-  tweet_count: 5
 
 addthis:
   enable: false
@@ -28,10 +29,12 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
+#comment_provider: facebook
+comment_provider:
 # Facebook comment
 facebook:
-  appid: 123937814464693
+  #appid: 1415044482063498
+  appid:
   comment_count: 5
   comment_width: 840
   comment_colorscheme: light

@@ -7,6 +7,23 @@
     <% for (var i in theme.menu){ %>
       <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
     <% } %>
+
+
+    <% if (theme.social["github"]) { %>
+    <li>
+      <a href="https://github.com/<%- theme.social["github"] %>" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a>
+    </li>
+    <% } %>
+    <% if (theme.social["facebook"]) { %>
+    <li>
+      <a href="https://www.facebook.com/<%- theme.social["facebook"] %>" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+    </li>
+    <% } %>
+    <% if (theme.social["twitter"]) { %>
+    <li>
+      <a href="https://twitter.com/<%- theme.social["twitter"] %>" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+    </li>
+    <% } %>
   </ul>
   <div class="clearfix"></div>
 </nav>
