@@ -5,6 +5,8 @@ Another [Hexo](http://zespia.tw/hexo/) Theme.
 
 [demo](http://arch.acgtyrant.com)
 
+![](https://lh6.googleusercontent.com/-cZeS5x1qVp4/UuZn27upVuI/AAAAAAAAE5M/ltY9YwPbodk/w971-h546-no/ScreenShot.png)
+
 ## Install
 
 Execute the following command and modify `theme` in `_config.yml` to `tyrant`.
